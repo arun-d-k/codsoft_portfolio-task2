@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY PORTFOLIO </title>
+    <link rel="icon" type="image/x-icon" href="newfolder/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section id="header">
+        <div class="header-top">
+          <div class="logo">
+            <a href="#"><span>Arun</span> D K</a>
+          </div>
+          <div class="nav-menu">
+            <ul id="sidemenu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skill">Skills</a></li>
+              <li><a href="#Projects">Projects</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="bottom-left">
+            <h1 class="name">Arun <span>D Kumbar</span></h1>
+            <h3 class="profession">-Mechanical Engineer</h3>
+            <p class="short-desc">
+              Completed my Bachelor's degree in Mechanical Engineering from Basaveshwar Engineering College  <br> Bagalkot.
+            </p>
+            <a href="newfolder/my-resume.pdf" target="_blank" class="btn-cv" download
+              >Download Resume</a
+            >
+          </div>
+          <div class="bottom-right">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/arun-d-kumbar-04a8b4228" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="about-left">
+          <img src="newfolder/My Photo-.png" alt="user-sideimg" />
+        </div>
+        <div class="about-right">
+          <div class="section-title">
+            <h2 class="sub-title">About Me</h2>
+            <h3 class="title"> Currently learning Web Development</h3>
+          </div>
+          <p class="desc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
+            suscipit neque voluptatum numquam vero excepturi vitae rerum dicta
+            vel commodi, aut, necessitatibus saepe culpa nihil porro magnam
+            atque possimus facilis.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="openTab('education')">
+              Education</p>
+            <p class="tab-links " onclick="openTab('skills')">Skills</p>
+            <p class="tab-links" onclick="openTab('internship')">Internship</p>
+            
+          </div>
+          <div class="tab-contents active-tab" id="education">
+            <ul>
+              <li>
+                <span>2019-2023</span><br />BE in ME from Basaveshwar Engineering College.
+                Bagalkot
+              </li>
+              <li>
+                <span>2017-2019</span><br />Pre-University Education from Konnur PU College.
+                Yallatti Jamkhandi
+              </li>
+              <li>
+                <span>2017</span><br />SSLC from JnanaJyoti English Medium High School.
+                Arakeri,Vijayapura
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents " id="skills">
+            <ul>
+              <li>
+                <span>Web technologies</span><br />HTML & CSS
+              </li>
+              <li><span>Database</span><br />SQL</li>
+              <li><span>Coding</span><br />Basics of C/C++. Java and Python</li>
+              <li><span>Core Mechanical</span><br />Materials, design and good in other concepts</li>
+              <li><span>Spoken English</span><br />Communication Skills</li>
+            </ul>
+          </div>
+          <div class="tab-contents " id="internship">
+            <ul>
+              <li>
+                <span> Oct 2023 - Nov 2023</span><br />Codsoft Web Development Internship
+                Intern Developer on provided tasks includes projects.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="skill">
+        <div class="section-title">
+          <h2 class="sub-title">My Skills</h2>
+          <h3 class="title">A brief of Offerting Skills</h3>
+        </div>
+        <div class="Skills">
+          <div>
+            <i class="fa-solid fa-compass-drafting"></i>
+            <h2>CAD-CATIA, Ansys, SolidEdge<br> Autocad</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              fugit optio dolore.
+            </p>
+          </div>
+          <div>
+            <i class="fa-brands fa-java"></i>
+            <h2>Java Programming</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              fugit optio dolore.
+            </p>
+          </div>
+          <div>
+            <i class="fa-brands fa-python"></i>
+            <h2>Python</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              fugit optio dolore.
+            </p>
+          </div>
+          <div>
+            <i class="fa-brands fa-microsoft"></i>
+            <h2>MS Office tools</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              fugit optio dolore.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>Problem-Solving</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              fugit optio dolore.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Applications</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              fugit optio dolore.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-bolt"></i>
+            <h2>Enthusiastic in Technologies</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              fugit optio dolore.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-desktop"></i>
+            <h2>Computer Memory and tools</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              fugit optio dolore.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="Projects">
+        <div class="section-title">
+          <h2 class="sub-title">My Projects</h2>
+          <h3 class="title">Awesome Works</h3>
+          <div class="project-list">
+            <div class="project">
+              <img src="newfolder/imagep1.jpg" alt="project1" />
+              <div class="layer">
+                <h3>"Modelling and Fabrication of Chainless Power Transmission in Hybrid Bicycle"</h3>
+                <p>
+                  The Chainless bicycle designed runs using shaft connected to sprockets and gears
+                  which is manual. also it can be runned automatic by making the setup involves motor,
+                  battery and speed controller for overall better performance and efficiency.
+                </p>
+                <a href="#"
+                  ><i class="fa fa-external-link" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project">
+              <img src="newfolder/imagep2.jpg" alt="project2" />
+              <div class="layer">
+                <h3>"Design and Simulation Of Power Generating Speed Breaker"</h3>
+                <p>
+                  This project aims mainly to conserve energy and the same is used to generate Power
+                  where we designed speed breaker using CATIA software.Rack and roller pinion,shaft,
+                  Dynamo, battery,spring are the components involved in the project.the simulation
+                  is our actual key of the project.
+                </p>
+                <a href="#"
+                  ><i class="fa fa-external-link" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project">
+              <img src="newfolder/calc.jpg" alt="project3" />
+              <div class="layer">
+                <h3>"Calculator"</h3>
+                <p>
+                  Built a simple calculator using the knowledge of html css and javascript.
+                </p>
+                <a href="#"
+                  ><i class="fa fa-external-link" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="down">
+          <div class="box" id="Box1">
+              <img src="newfolder/major pro1.jpg" alt="major project">
+          </div>
+          <div class="box" id="Box2">
+              <img src="newfolder/Major pro.jpg " alt="major peoject">
+          </div>
+          <div class="box" id="Box3">
+              <img src="newfolder/mini project.jpg" alt="mini project">
+          </div>    
+      </div>
+      </section>
+      <section id="resume">
+        <div class="section-title">
+          <h2 class="sub-title">My Resume</h2>
+          <a href="newfolder/my-resume.pdf" target="_blank">
+           <h3> Click here</h3></a>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="section-title">
+          <h2 class="sub-title">Contact</h2>
+          <h3 class="title">Get in Touch</h3>
+        </div>
+        <div class="content">
+          <div class="contact-left">
+            <form action="">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit">
+                Send Message <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </form>
+          </div>
+          <div class="vl"></div>
+          <div class="contact-right">
+            <div class="col address">
+              <i class="fa-solid fa-location-dot"></i>
+              <div class="info">
+                <h2 class="title">Address</h2>
+                <p>A/P.Kanamadi Dist-Vijayapura Tq-Tikota, 586114, Karnataka</p>
+              </div>
+            </div>
+            <div class="col phone">
+              <i class="fa-solid fa-phone"></i>
+              <div class="info">
+                <h2 class="title">Phone</h2>
+                <p>+91 953 5103 798</p>
+              </div>
+            </div>
+            <div class="col email">
+              <i class="fa-solid fa-envelope"></i>
+              <div class="info">
+                <h2 class="title">Email</h2>
+                <p>arunkumbar2019@gmail.com</p>
+              </div>
+            </div>
+            <div class="col website">
+              <i class="fa-brands fa-github"></i>
+              <div class="info">
+                <h2 class="title">Github account</h2>
+                <a href="https://github.com/arun-d-k/Mycodeworld.git">arun-d-k</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>
+            Copyright ©️ ArunDK | Made with
+            <i class="fa-solid fa-heart"></i> by
+            <a href="#">Arun D K</a>
+          </p>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
